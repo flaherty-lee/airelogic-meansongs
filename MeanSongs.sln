@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32721.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeanSongs", "MeanSongs.csproj", "{2E3A039E-9D46-401B-8E76-6AA6B4363E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeanSongs", "MeanSongs.csproj", "{2E3A039E-9D46-401B-8E76-6AA6B4363E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeanSongsTest", "..\MeanSongsTest\MeanSongsTest.csproj", "{32F2EACC-9ED5-4349-8B4C-CA3A3C1D6A82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2E3A039E-9D46-401B-8E76-6AA6B4363E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E3A039E-9D46-401B-8E76-6AA6B4363E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E3A039E-9D46-401B-8E76-6AA6B4363E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F2EACC-9ED5-4349-8B4C-CA3A3C1D6A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F2EACC-9ED5-4349-8B4C-CA3A3C1D6A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F2EACC-9ED5-4349-8B4C-CA3A3C1D6A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F2EACC-9ED5-4349-8B4C-CA3A3C1D6A82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

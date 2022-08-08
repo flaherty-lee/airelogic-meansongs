@@ -1,14 +1,6 @@
 ﻿using MeanSongs.Exceptions;
 using MeanSongs.Services.Interfaces;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Serilog;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeanSongs
 {
@@ -52,7 +44,7 @@ namespace MeanSongs
             {
                 if(ex is ApiServiceException || ex is RetriesCountException || ex is ValidationException)
                 {
-                    _console.WriteLine(ex.Message);
+                    _console.WriteLine(ex.Message + " Cancelling mean calculation.");
                     return;
                 }
                 throw;

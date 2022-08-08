@@ -2,15 +2,9 @@
 using MeanSongs.Models.Lyricsovh;
 using MeanSongs.Services.Interfaces;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
 using Serilog;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Sockets;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace MeanSongs.Services
 {
